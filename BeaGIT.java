@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class BeaGIT {
 
     public static void main(String[] args) {
-<<<<<<< HEAD
         Scanner sc = new Scanner(System.in);
         int a,b,c;
         System.out.print("Ingrese un numero: ");
@@ -18,8 +17,7 @@ public class BeaGIT {
             System.out.println("La suma de " + a + " y " + b + " es: " + c);
             System.out.println("Realizado por Beatriz");
         sc.close();
-}
-=======
+
         // Ejemplo de uso
         char[][] matriz = {
             {'h', 'o', 'l', 'a'},
@@ -28,10 +26,9 @@ public class BeaGIT {
         };
         
         String[] palabras = {"hola", "mundo", "java"};
-	System.out.println("Cambio en RAMA2")
+	System.out.println("Cambio en RAMA2");
 
         int cantidad = palabrasMatriz(matriz, palabras);
         System.out.println("Cantidad de palabras encontradas: " + cantidad);
     }
->>>>>>> RAMA2
 }
